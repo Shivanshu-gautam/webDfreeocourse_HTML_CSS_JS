@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .body {
+            background-color: rgb(207, 146, 71);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: yellow;
+            padding: 15px 50px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links li {
+            cursor: pointer;
+            position: relative;
+        }
+
+        .nav-links li:hover {
+            color: blue;
+            ;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: 1px solid black;
+            background: white;
+            cursor: pointer;
+            border-radius: 5px;
+        } 
+         .btn:hover{
+            background: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            UltraEdit
+        </div>
+        <ul class="nav-links">
+            <li>Products ▼</li>
+            <li>Pricing ▼</li>
+            <li>Resources ▼</li>
+            <li>About Us ▼</li>
+        </ul>
+        <button class="btn">Buy now</button>
+    </nav>
+
+
+</body>
+
+</html>

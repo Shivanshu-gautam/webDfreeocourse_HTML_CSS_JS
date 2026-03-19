@@ -1,0 +1,73 @@
+*{
+            margin: 0;
+            padding: 0;
+             
+        }
+        .logo img{
+            width: 164px;
+        }
+        .navbar{
+            background: yellow;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            border: 3px solid black;
+        }
+        .list{
+            display: flex;
+            gap: 30px;
+            list-style: none;
+
+        }
+        .logo{
+            font-size: 2px;
+            font-weight:bold;
+        }
+        .list li{
+            cursor: pointer;
+            position:relative;
+        }
+        .list li:hover{
+            color: blue;;
+        }
+        .btn{
+            padding: 6px 10px;
+            border-radius: 10px 20px;
+            cursor:pointer;
+        }
+        .btn:hover{
+            background: black;
+            color: red;
+        }
+        .download{
+            display: grid;
+            color: rgb(204, 135, 50);
+            grid-template-columns:  repeat(3,1fr);
+            gap: 25px;
+            padding: 50px 100px;
+
+        }
+        .card{
+            background-color: bisque;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .card button{
+              margin: 8px;
+              padding: 8px 10px;
+              border: 2px solid brown;
+              border-radius: 15px;
+              cursor: pointer;
+        }
+        .card button:hover{
+            background-color: black;
+            color: yellow;
+        }
+        @media screen and (max-width: 1145px) {
+    .download { 
+        grid-template-columns: 1fr;
+         
+    }
+}
